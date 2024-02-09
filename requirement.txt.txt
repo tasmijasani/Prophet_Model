@@ -3,4 +3,3 @@ plotly
 pandas
 scikit-learn
 streamlit
-pickle
