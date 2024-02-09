@@ -1,0 +1,6 @@
+prophet
+plotly
+pandas
+scikit-learn
+streamlit
+pickle
