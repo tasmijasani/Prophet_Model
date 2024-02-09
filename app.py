@@ -86,10 +86,6 @@ def main():
        st.subheader('Forecast Data:')
        st.write(forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail())
 
-         # Display forecast plot
-       st.subheader('Forecast Plot:')
-       st.pyplot(fig1)
-
        fig2 = model.plot_components(forecast)
        st.pyplot(fig2)
    
