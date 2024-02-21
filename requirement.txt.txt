@@ -5,4 +5,5 @@ scikit-learn
 streamlit
 seaborn
 gluonts
-
+--upgrade mxnet==1.6.0
+"gluonts[torch]"
